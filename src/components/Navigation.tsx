@@ -25,7 +25,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-monster-purple to-monster-blue bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold text-monster-purple">
               Belly Monster Bites
             </h1>
           </div>

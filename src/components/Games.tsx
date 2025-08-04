@@ -63,7 +63,7 @@ const Games = () => {
   ];
 
   return (
-    <section id="juegos" className="py-20 bg-gradient-to-br from-monster-green/5 via-monster-blue/5 to-monster-purple/5">
+    <section id="juegos" className="py-20 bg-monster-purple/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
@@ -73,7 +73,7 @@ const Games = () => {
           </Badge>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-monster-green to-monster-purple bg-clip-text text-transparent">
+            <span className="text-monster-purple">
               Diversión Sin Límites
             </span>
             <br />
@@ -94,7 +94,7 @@ const Games = () => {
               alt="Área de juegos de Belly Monster Bites"
               className="w-full h-[400px] object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-monster-purple/40 via-transparent to-transparent"></div>
+            <div className="absolute inset-0 bg-monster-purple/20"></div>
             
             {/* Overlay Content */}
             <div className="absolute bottom-8 left-8 right-8 text-white">
@@ -190,7 +190,7 @@ const Games = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="bg-gradient-to-r from-monster-purple/10 to-monster-blue/10 rounded-3xl p-8 md:p-12 text-center">
+        <div className="bg-monster-blue/10 rounded-3xl p-8 md:p-12 text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
             ¿Listo para la Diversión?
           </h3>
@@ -203,7 +203,7 @@ const Games = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              className="bg-gradient-to-r from-monster-green to-monster-blue hover:from-monster-green/90 hover:to-monster-blue/90 text-primary-foreground font-semibold px-8 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-monster-green hover:bg-monster-green/90 text-primary-foreground font-semibold px-8 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <Gamepad className="mr-2 h-5 w-5" />
               Reservar Mesa

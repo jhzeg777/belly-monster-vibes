@@ -31,7 +31,7 @@ const About = () => {
   ];
 
   return (
-    <section id="sobre" className="py-20 bg-gradient-to-br from-monster-purple/5 via-monster-blue/5 to-monster-yellow/5">
+    <section id="sobre" className="py-20 bg-monster-green/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
@@ -41,7 +41,7 @@ const About = () => {
           </Badge>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-monster-purple to-monster-green bg-clip-text text-transparent">
+            <span className="text-monster-green">
               Donde Nació
             </span>
             <br />
@@ -57,7 +57,7 @@ const About = () => {
 
         {/* Story Section */}
         <div className="mb-16">
-          <Card className="overflow-hidden shadow-xl border-0 bg-gradient-to-r from-monster-white to-muted/30">
+          <Card className="overflow-hidden shadow-xl border-0 bg-monster-white">
             <CardContent className="p-8 md:p-12">
               <div className="grid lg:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">

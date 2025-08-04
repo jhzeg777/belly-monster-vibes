@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="inicio" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-monster-purple/10 via-monster-blue/10 to-monster-yellow/10 pt-16">
+    <section id="inicio" className="min-h-screen flex items-center justify-center bg-monster-blue/5 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
@@ -21,7 +21,7 @@ const Hero = () => {
               </div>
               
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-                <span className="bg-gradient-to-r from-monster-purple via-monster-blue to-monster-green bg-clip-text text-transparent">
+                <span className="text-monster-purple">
                   Belly Monster
                 </span>
                 <br />
@@ -39,7 +39,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 onClick={handleOrderClick}
-                className="bg-gradient-to-r from-monster-purple to-monster-blue hover:from-monster-purple/90 hover:to-monster-blue/90 text-primary-foreground font-semibold px-8 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="bg-monster-purple hover:bg-monster-purple/90 text-primary-foreground font-semibold px-8 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 <Coffee className="mr-2 h-5 w-5" />
                 Ver Menú
@@ -80,7 +80,7 @@ const Hero = () => {
                 alt="Belly Monster Bites - Cafetería colorida con postres y juegos"
                 className="w-full h-[500px] object-cover transform hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-monster-purple/20 to-transparent"></div>
+              <div className="absolute inset-0 bg-monster-purple/10"></div>
             </div>
             
             {/* Floating elements */}

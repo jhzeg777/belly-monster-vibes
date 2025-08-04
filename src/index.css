@@ -47,11 +47,6 @@ All colors MUST be HSL.
     --input: 200 20% 92%;
     --ring: 280 65% 60%;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--monster-purple)), hsl(var(--monster-blue)));
-    --gradient-secondary: linear-gradient(135deg, hsl(var(--monster-yellow)), hsl(var(--monster-green)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--monster-purple) / 0.1), hsl(var(--monster-blue) / 0.1));
-
     /* Shadows */
     --shadow-soft: 0 4px 12px hsl(var(--monster-purple) / 0.15);
     --shadow-glow: 0 0 30px hsl(var(--monster-purple) / 0.3);

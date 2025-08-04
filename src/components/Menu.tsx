@@ -56,7 +56,7 @@ const Menu = () => {
   ];
 
   return (
-    <section id="menu" className="py-20 bg-gradient-to-br from-monster-white to-muted/30">
+    <section id="menu" className="py-20 bg-monster-yellow/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
@@ -66,7 +66,7 @@ const Menu = () => {
           </Badge>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-monster-purple to-monster-blue bg-clip-text text-transparent">
+            <span className="text-monster-blue">
               Sabores que Despiertan
             </span>
             <br />
@@ -87,7 +87,7 @@ const Menu = () => {
               alt="Variedad de productos de Belly Monster Bites"
               className="w-full h-80 object-cover transform hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-monster-purple/30 to-transparent"></div>
+            <div className="absolute inset-0 bg-monster-blue/10"></div>
           </div>
         </div>
 

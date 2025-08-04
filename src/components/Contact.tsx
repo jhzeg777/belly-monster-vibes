@@ -53,7 +53,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contacto" className="py-20 bg-gradient-to-br from-monster-yellow/5 via-monster-green/5 to-monster-purple/5">
+    <section id="contacto" className="py-20 bg-monster-yellow/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
@@ -63,7 +63,7 @@ const Contact = () => {
           </Badge>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-monster-yellow to-monster-green bg-clip-text text-transparent">
+            <span className="text-monster-yellow">
               ¡Estamos Aquí
             </span>
             <br />
@@ -108,7 +108,7 @@ const Contact = () => {
         {/* Main Content Grid */}
         <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {/* Visit Us Card */}
-          <Card className="overflow-hidden shadow-xl border-0 bg-gradient-to-br from-monster-white to-muted/30">
+          <Card className="overflow-hidden shadow-xl border-0 bg-monster-white">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold text-foreground mb-6 flex items-center">
                 <MapPin className="h-6 w-6 text-monster-purple mr-3" />
@@ -142,7 +142,7 @@ const Contact = () => {
 
               <Button 
                 size="lg"
-                className="w-full bg-gradient-to-r from-monster-purple to-monster-blue hover:from-monster-purple/90 hover:to-monster-blue/90 text-primary-foreground font-semibold rounded-xl"
+                className="w-full bg-monster-purple hover:bg-monster-purple/90 text-primary-foreground font-semibold rounded-xl"
               >
                 <MapPin className="mr-2 h-5 w-5" />
                 Ver en Google Maps
@@ -151,7 +151,7 @@ const Contact = () => {
           </Card>
 
           {/* Social Media & Contact */}
-          <Card className="overflow-hidden shadow-xl border-0 bg-gradient-to-br from-monster-white to-muted/30">
+          <Card className="overflow-hidden shadow-xl border-0 bg-monster-white">
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold text-foreground mb-6 flex items-center">
                 <MessageCircle className="h-6 w-6 text-monster-green mr-3" />
@@ -205,7 +205,7 @@ const Contact = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center bg-gradient-to-r from-monster-purple/10 via-monster-blue/10 to-monster-green/10 rounded-3xl p-8 md:p-12">
+        <div className="text-center bg-monster-green/10 rounded-3xl p-8 md:p-12">
           <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
             ¡Tu Aventura Monster Te Espera!
           </h3>

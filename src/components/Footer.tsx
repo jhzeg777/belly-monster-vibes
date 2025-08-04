@@ -5,12 +5,12 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-br from-monster-dark to-monster-purple text-monster-white">
+    <footer className="bg-monster-dark text-monster-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand Section */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-monster-yellow to-monster-green bg-clip-text text-transparent">
+            <h3 className="text-2xl font-bold mb-4 text-monster-yellow">
               Belly Monster Bites
             </h3>
             <p className="text-monster-white/80 mb-4 leading-relaxed">
