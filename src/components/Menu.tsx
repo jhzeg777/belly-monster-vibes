@@ -83,7 +83,7 @@ const Menu = () => {
         <div className="mb-16 flex justify-center">
           <div className="relative overflow-hidden rounded-2xl shadow-xl max-w-md">
             <img 
-              src={menuImage}
+              src="https://www.facebook.com/bellymonsterbites/photos/pb.100059615783362.-2207520000/365296468584687/?type=3"
               alt="Variedad de productos de Belly Monster Bites"
               className="w-full h-80 object-cover transform hover:scale-105 transition-transform duration-500"
             />
