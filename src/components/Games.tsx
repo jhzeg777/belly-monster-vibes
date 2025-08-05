@@ -90,7 +90,7 @@ const Games = () => {
         <div className="mb-16 relative">
           <div className="relative overflow-hidden rounded-3xl shadow-2xl">
             <img 
-              src="https://www.emdpublicidad.com/bmb/b3.jpg"
+              src="https://www.emdpublicidad.com/bmb/b3.png"
               alt="Área de juegos de Belly Monster Bites"
               className="w-full h-[400px] object-cover"
             />

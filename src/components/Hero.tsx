@@ -76,7 +76,7 @@ const Hero = () => {
           <div className="relative animate-scale-in">
             <div className="relative overflow-hidden rounded-3xl shadow-2xl">
               <img 
-                src="https://www.emdpublicidad.com/bmb/b1.jpg"
+                src="https://www.emdpublicidad.com/bmb/b5.jpg"
                 alt="Belly Monster Bites - Cafetería colorida con postres y juegos"
                 className="w-full h-[500px] object-cover transform hover:scale-105 transition-transform duration-700"
               />
