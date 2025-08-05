@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="inicio" className="min-h-screen flex items-center justify-center bg-monster-blue/5 pt-16">
+    <section id="inicio" className="min-h-screen flex items-center justify-center pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
@@ -76,7 +76,7 @@ const Hero = () => {
           <div className="relative animate-scale-in">
             <div className="relative overflow-hidden rounded-3xl shadow-2xl">
               <img 
-                src={heroImage} 
+                src="https://www.emdpublicidad.com/bmb/b1.jpg"
                 alt="Belly Monster Bites - Cafetería colorida con postres y juegos"
                 className="w-full h-[500px] object-cover transform hover:scale-105 transition-transform duration-700"
               />

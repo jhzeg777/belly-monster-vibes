@@ -90,7 +90,7 @@ const Games = () => {
         <div className="mb-16 relative">
           <div className="relative overflow-hidden rounded-3xl shadow-2xl">
             <img 
-              src={gamesImage}
+              src="https://www.emdpublicidad.com/bmb/b3.jpg"
               alt="Área de juegos de Belly Monster Bites"
               className="w-full h-[400px] object-cover"
             />
@@ -99,10 +99,9 @@ const Games = () => {
             {/* Overlay Content */}
             <div className="absolute bottom-8 left-8 right-8 text-white">
               <h3 className="text-2xl md:text-3xl font-bold mb-2">
-                Tu Mesa de Juegos Favorita Te Espera
+              
               </h3>
               <p className="text-white/90 text-lg">
-                Ambiente cómodo y colorido para disfrutar en buena compañía
               </p>
             </div>
           </div>
