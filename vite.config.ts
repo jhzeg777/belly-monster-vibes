@@ -5,18 +5,23 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+    base: '/belly-monster-vibes/',  // Asegúrate de poner el nombre correcto de tu repositorio aquí
+  build: {
+    outDir: 'dist',
+  },
+
   server: {
     host: "::",
     port: 8080,
   },
   plugins: [
     react(),
-    mode === 'development' && componentTagger(),
+    mode === 'development' &&
+    componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/belly-monster-vibes/', // Asegúrate de poner el nombre correcto de tu repositorio
 }));
