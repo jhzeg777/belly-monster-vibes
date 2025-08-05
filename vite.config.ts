@@ -19,4 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: '/belly-monster-vibes/', // Asegúrate de poner el nombre correcto de tu repositorio
 }));
